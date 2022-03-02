@@ -1,0 +1,20 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Projeto do bytebank para seus clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinacstro/byte-bank.git"
+  },
+  "author": "Carolina Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinacstro/byte-bank/issues"
+  },
+  "homepage": "https://github.com/carolinacstro/byte-bank#readme",
+  "type": "module"
+}
