@@ -3,9 +3,30 @@ export class ContaCorrente {
     agencia;
     cliente;
 
+    // atributo
+    set cliente(novoValor) {
+        if (novoValor instanceof Cliente) {
+            this._cliente = novoValor;
+        }
+    }
+
+    // acessor
+    get cliente() {
+        return this._cliente;
+    }
+
 
     // privado
     _saldo = 0;
+
+    get saldo() {
+        return this._saldo;
+    }
+
+    constructor(cliente, agencia) {
+        this.agencia = agencia;
+        this.cliente = cliente;
+    }
 
     sacar(valor) {
         if (this._saldo >= valor) {
