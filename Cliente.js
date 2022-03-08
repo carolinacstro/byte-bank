@@ -6,7 +6,7 @@ export class Cliente {
         return this._cpf;
     }
 
-    // função especial
+    // função especial - usado para inicializar atributo
     constructor(nome, cpf) {
         this.nome = nome;
         this._cpf = cpf;
