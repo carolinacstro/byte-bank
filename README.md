@@ -1,3 +1,3 @@
-# byte-bank
+# byte bank
 
 - Desenvolvido com o objetivo de estudar Javascript.
